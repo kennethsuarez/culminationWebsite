@@ -3,6 +3,12 @@
  */
 
 /* Links */
+
+@font-face {
+  font-family: 'digital-7';
+  src: url('./fonts/digital-7.ttf');
+}
+
 a,
 a:focus,
 a:hover {
@@ -115,5 +121,8 @@ h5 {
 }
 
 #curr-time {
-    color: red;
+    color: greenyellow;
+    font-family: 'digital-7', sans-serif;
+    font-size: 100px;
 }
+
